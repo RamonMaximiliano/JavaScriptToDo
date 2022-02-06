@@ -30,6 +30,7 @@ function addItem() {
                 let newItem = document.createElement("div")
                 newItem.setAttribute("class", "newItem")
                 newItem.setAttribute("data-id", endItem)
+                newItem.setAttribute("ondblclick", "checked(this)")
 
                 //criando paragraph
                 let newItemParagraph = document.createElement("p")
@@ -82,3 +83,25 @@ function excludeItem(event) {
 function reset(){
     window.location.reload();
 }
+
+
+
+function checked(check){
+    //how to get the data attribute from onlick, put the event on a variable, the dataset. and whatever comes after the "-" sign, example the data attribute of this element was:  data-id="code" therefore to get it:  let itemChecked = check.dataset.id
+    let itemChecked = check.dataset.id
+    console.log(itemChecked)
+
+    if(document.querySelector(`[data-id=${itemChecked}]`).classList.contains("newItem")) 
+    {
+        document.querySelector(`[data-id=${itemChecked}]`).classList.remove("newItem")
+        document.querySelector(`[data-id=${itemChecked}]`).classList.add("newItemChecked")
+    } else {
+
+    document.querySelector(`[data-id=${itemChecked}]`).classList.remove("newItemChecked")
+    document.querySelector(`[data-id=${itemChecked}]`).classList.add("newItem")
+
+    }
+
+}
+
+
