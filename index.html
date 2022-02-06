@@ -15,7 +15,8 @@
         <h1 class="form-title">Item name</h1>
         <div class="inputButton">
             <input type="text" class="inputText" placeholder="Type your item">
-            <input type="button" class="button" value="Add" onclick="addItem()">
+            <!--             To make the input also trigger the function when you press Enter key, inside the input field set it as type="submit" instead of button, also needs to add "return false" to the function, like this: onclick="addItem(); return false" -->
+            <input type="submit" class="button" value="Add" onclick="addItem(); return false">
         </div>
     </form>
 
