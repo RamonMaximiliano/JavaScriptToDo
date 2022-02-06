@@ -80,25 +80,24 @@ function excludeItem(event) {
 
 //o querySelector somente aceita characters como identifiers, ele não aceita numeros no inicio, a class tem que começar com um character não numero 
 
-function reset(){
+function reset() {
     window.location.reload();
 }
 
 
 
-function checked(check){
+function checked(check) {
     //how to get the data attribute from onlick, put the event on a variable, the dataset. and whatever comes after the "-" sign, example the data attribute of this element was:  data-id="code" therefore to get it:  let itemChecked = check.dataset.id
     let itemChecked = check.dataset.id
     console.log(itemChecked)
 
-    if(document.querySelector(`[data-id=${itemChecked}]`).classList.contains("newItem")) 
-    {
+    if (document.querySelector(`[data-id=${itemChecked}]`).classList.contains("newItem")) {
         document.querySelector(`[data-id=${itemChecked}]`).classList.remove("newItem")
         document.querySelector(`[data-id=${itemChecked}]`).classList.add("newItemChecked")
     } else {
 
-    document.querySelector(`[data-id=${itemChecked}]`).classList.remove("newItemChecked")
-    document.querySelector(`[data-id=${itemChecked}]`).classList.add("newItem")
+        document.querySelector(`[data-id=${itemChecked}]`).classList.remove("newItemChecked")
+        document.querySelector(`[data-id=${itemChecked}]`).classList.add("newItem")
 
     }
 

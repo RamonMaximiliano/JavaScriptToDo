@@ -81,84 +81,84 @@
     background-color: rgb(0, 73, 218);
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(55, 118, 245);
 }
 
-.newItem{
-    display:flex;
+.newItem {
+    display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
     box-sizing: border-box;
     align-items: center;
-    font-size:30px;
-    margin:auto;
-    padding:10px;
-    padding-top:10px;
-    padding-left:30px;
-    margin-top:30px;
-    width:750px;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 30px;
+    width: 750px;
     height: 100px;
     background-color: #5d60f1e3;
     border-radius: 10px;
 }
 
-.newItemChecked{
-    display:flex;
+.newItemChecked {
+    display: flex;
     justify-content: space-between;
-    color:white;
+    color: white;
     box-sizing: border-box;
     align-items: center;
-    font-size:30px;
-    margin:auto;
-    padding:10px;
-    padding-top:10px;
-    padding-left:30px;
-    margin-top:30px;
-    width:750px;
+    font-size: 30px;
+    margin: auto;
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 30px;
+    width: 750px;
     height: 100px;
     background-color: #0aad05e3;
     border-radius: 10px;
 }
 
-.excludeButton{
+.excludeButton {
     box-sizing: border-box;
-    width:50px;
+    width: 50px;
 }
 
-.excludeButton, .paragraph{
+.excludeButton, .paragraph {
     background-color: transparent;
 }
 
-.reset{
+.reset {
     box-sizing: border-box;
-    color:white;
-    width:200px;
+    color: white;
+    width: 200px;
     height: 50px;
     font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
     border: solid 3px rgb(54, 89, 243);
     background-color: rgb(4, 120, 197);
-    margin:auto;
+    margin: auto;
 }
 
-.reset:hover{
+.reset:hover {
     background-color: rgb(82, 172, 231);
 }
 
-.reset-button{
+.reset-button {
     box-sizing: border-box;
-    margin-left:auto;
-    margin-right:auto;
-    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
     margin-top: 800px;
 }
 
-.tip{
-    width:350px;
-    margin:auto;
-    margin-top:30px;
-    font-size:20px;
+.tip {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
