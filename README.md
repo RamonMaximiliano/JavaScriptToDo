@@ -13,8 +13,6 @@ You can:
 - Warnings for repeated task 
 - Warning when the user tries to add empty task
 
-![My Image](javascripttodo.JPG)
-
 Português:
 
 Um aplicativo simples de "Lista de tarefas" com vanilla Java Script feito inteiramente por mim sem seguir nenhum tutorial.
@@ -27,3 +25,7 @@ Você pode:
 - Limpar toda a lista de tarefas
 - Avisos para tarefas repetidas
 - Aviso quando o usuário tenta adicionar tarefa vazia
+
+![My Image](javascripttodo.JPG)
+
+
